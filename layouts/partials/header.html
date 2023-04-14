@@ -1,0 +1,14 @@
+		<nav class="nav">
+			<div class="nav-container">
+				<a href="{{ "/" | relURL }}">
+					{{ if .IsPage }}
+						<h2 class="nav-title">Hola Hugo{{ .Site.Title }}</h2>
+					{{ else }}
+						<img src="{{.Site.BaseURL
+						}}images/postgre_Sql.jpg" alt="front"/>
+						<h1 class="nav-title"> Hola {{ .Site.Title }}</h1>
+					{{ end }}
+				</a>
+				{{ partial "header-menu.html" . }}
+			</div>
+		</nav>
