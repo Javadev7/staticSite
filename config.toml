@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://aldoshop.netlify.app'
 languageCode = 'en-us'
 title = 'My site Hugo'
 theme = 'tale'
